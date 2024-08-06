@@ -1,19 +1,25 @@
-//alert(3+3)
-console.log(12/3)
+ //checking no.s
+ score = 33
 
-let name = "naman"
-let age  = 18
-let IsloggedIn= false
-let state = null
+ console.log(typeof(score))
+ let valueInNumber = Number(score)
+ console.log(typeof valueInNumber)
 
-//number=> 2 to power 53
-//bigint =>
-//string => ""
-// boolean=> true/false
-//null=> standalone  value
-//undefined=>
-//symbol=> unique
+ //true=>1 or 0=> false
 
-//object=>
+ let isLoggedIn = "0"
+ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-console.log(typeof null) => //object
+ console.log(booleanIsLoggedIn)
+
+ //no. to string conversion
+ let someNumber = 33
+ let stringNumber = String(someNumber)
+ console.log(stringNumber)
+ console.log(typeof stringNumber)
+
+ //coversion string to no.
+ let someString = "naman"
+ let StringNumber = Number(someString)
+ console.log(StringNumber)
+ console.log(typeof StringNumber)
