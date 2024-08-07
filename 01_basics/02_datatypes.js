@@ -23,3 +23,6 @@
  let StringNumber = Number(someString)
  console.log(StringNumber)
  console.log(typeof StringNumber)
+
+
+//end
