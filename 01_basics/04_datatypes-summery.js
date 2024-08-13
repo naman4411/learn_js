@@ -38,3 +38,24 @@ console.log("hello world")
 }
 // to check type of function ==> use *typeof*
 console.log(typeof bigint )
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //   Heap
+// Heap Allocation=>
+let myYoutubename = "namandotcom"
+let anothername =  myYoutubename
+anothername = "harrydotcom"
+console.log(anothername)
+console.log(myYoutubename)
+
+// make sure put , "comma" at the end of the Line while changing line in object code
+
+let userOne = {
+    email: "user@cognizant.in",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+// accessing object element like i have to change mail which is writen inside the object=>
+
+userTwo.email ="naman@cognizant.in"
+console.log(userOne)
+console.log(userTwo)
+
