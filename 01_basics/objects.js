@@ -28,7 +28,7 @@ JsUser.email = "naman@nvidia.com"
 JsUser.greeting = function(){
     console.log("hello world")
 }
-
+@
 
 // ***************Function access by objects**********
 
