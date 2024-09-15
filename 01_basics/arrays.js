@@ -26,6 +26,7 @@ console.log(MyArry);
 // splice
   const MyArr = [0, 1, 2, 3, 4, 5]
  console.log("A", MyArr);
- const myn2= MyArr.splice(1,3)
+  const myn2= MyArr.splice(1,3)
+//  console.log("A", MyArr);
  
- console.log(myn2);
+ console.log(naman);
