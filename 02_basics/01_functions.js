@@ -38,3 +38,27 @@ console.log(loginUserMessage(""))
  }
 console.log(loginUserMessage(""))
 
+// *******these 3 dots can make list and add on all the arguments in array otherwise only single parameter should be passsed
+ function calculateCartPrice(...num1){
+    return num1
+ }
+ console.log(calculateCartPrice(200,400,500));
+
+//  **********acessing object using function**************
+
+
+
+const user = {
+    username: "naman",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+// handleObject(user)
+
+handleObject({
+    username:"naman",
+    price: 399
+})

@@ -35,3 +35,4 @@ const addone = function(num){
     return num +2
 }
 console.log(addone(6))
+.
