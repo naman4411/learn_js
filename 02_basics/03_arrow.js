@@ -8,7 +8,7 @@ const user ={
     }
 }
 user.welcomeMessage() 
-user.username="sam" 
+user.username="sam"; 
 user.welcomeMessage()    
 
 // // ****************we can't use this in Arrow function ********************
